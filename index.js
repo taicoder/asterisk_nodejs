@@ -9,8 +9,9 @@ app.use(cors());
 require("dotenv").config();
 
 var client = require("ari-client");
-const url = "http://192.168.1.203:8088";
-const url_aut = "http://asterisk:asterisk@192.168.1.203:8088";
+const ip="192.168.43.228";
+const url = "http://"+ip+":8088";
+const url_aut = "http://asterisk:asterisk@"+ip+":8088";
 const username = "asterisk";
 const password = "asterisk";
 
